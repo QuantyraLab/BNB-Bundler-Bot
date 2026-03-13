@@ -1,5 +1,7 @@
 /**
  * Hardhat Configuration
+ *
+ * BNB / BSC bundler bot — fork-friendly defaults for local tests.
  * 
  * Configuration for BNB Chain Trading Bot
  * Includes BSC mainnet forking for realistic testing
