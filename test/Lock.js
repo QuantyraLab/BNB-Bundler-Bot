@@ -6,6 +6,7 @@ const { anyValue } = require("@nomicfoundation/hardhat-chai-matchers/withArgs");
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
+// Run with a local fork (`npm run sn`) before `npm test`.
 const { defaultAbiCoder } = require("@ethersproject/abi");
 const { abi: UniswapV3FactoryABI } = require('@uniswap/v3-core/artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json');
 const { encodeSqrtRatioX96, Pool, Position, TickMath, NonfungiblePositionManager, nearestUsableTick } = require("@uniswap/v3-sdk");
